@@ -11,7 +11,7 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:5173/portfolioprarawi/ (the site is served under the repo name for GitHub Pages).
+Open http://localhost:5173/portfolio/ (the site is served under the repo name for GitHub Pages).
 
 ## Editing content
 
