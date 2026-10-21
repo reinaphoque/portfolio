@@ -1,0 +1,41 @@
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: var(--radius-pill);
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.85rem;
+  letter-spacing: 0.01em;
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.skill-tag:hover {
+  transform: translateY(-3px) rotate(-1deg);
+}
+
+.skill-tag--cyan {
+  background: var(--cyan);
+  color: var(--indigo);
+}
+
+.skill-tag--lavender {
+  background: var(--lavender);
+  color: var(--indigo);
+}
+
+.skill-tag--pink {
+  background: var(--pink);
+  color: var(--slate-navy);
+}
+
+.skill-tag--powder {
+  background: var(--powder-blue);
+  color: var(--indigo);
+}
